@@ -1,14 +1,14 @@
 :root {
-    --primary:  #2c17a3;
+    --primary: #2c17a3;
     --secondary: #54aec5;
-    
+
 
     --gray-900: hsl(300, 17%, 35%);
-    --gray-900: hsl(270,2%,10);
+    --gray-900: hsl(270, 2%, 10);
     --gray-900: hsl(300, 61%, 50%);
-    --gray-900: hsl(350,2%,10);
-    --gray-900: hsl(400,2%,10);
-    --gray-900: hsl(450,2%,10);
+    --gray-900: hsl(350, 2%, 10);
+    --gray-900: hsl(400, 2%, 10);
+    --gray-900: hsl(450, 2%, 10);
 }
 
 * {
@@ -17,7 +17,7 @@
     outline: 0;
     border: 0;
     box-sizing: border-box;
-    border:  1px;
+    border: 1px;
 }
 
 body {
@@ -31,69 +31,58 @@ body {
 }
 
 main {
-     background-color: var(--secondary);
-     width: 30%;
-     padding: 5px 2px;
-     
+    background-color: var(--secondary);
+    width: 30%;
+    padding: 5px 2px;
+
 }
 
-    #nome, #email, #senha {
+#nome,
+#email,
+#senha {
 
-        width: 100% ;
-        padding: 5px;
-        margin: 5px 0;
-        border-radius: 6px;
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 6px;
+}
+
+#data {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+textarea {
+    width: 100%;
+    margin: 15px 0;
+    border-radius: 6px;
+
+}
+
+#genero {
+    display: block;
+    margin: 5px 0;
+}
+
+.div-stack {
+    display: block;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    background: var(--primary);
+    border-radius: 6px;
+    transition-duration: 05s;
+
+    button:hover {
+        background-color: var(--yellow-lihgt);
     }
+}
 
-    #data {
-        display: block;
-        margin: 5px;
-        padding: 5px;
-        border-radius: 6px;
-          } 
-    
-            textarea {
-                width: 100%;
-                margin: 15px 0;
-                border-radius: 6px;
-            
-            }
-
-             #genero{
-                display: block;
-                margin: 5px 0;
-             }
-             
-             .div-stack {
-                display: block;
-             }
-
-             button
-             {
-                display: block;
-                width: 100%;
-                padding: 8px 0 ;
-                background:  var(--primary);
-                border-radius: 6px;
-                transition-duration: 05s;
-
-                button: hover {
-                    background-color: var(--yellow-lihgt);
-                }
-              }
-
-             #turno {
-                margin: 15px 0;
-             }
-
-
-
-             
-          
-
-
-
-          
- 
-          
-
+#turno {
+    margin: 15px 0;
+}
